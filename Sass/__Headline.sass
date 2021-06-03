@@ -1,0 +1,68 @@
+@import "variables"
+
+.shape
+  position: absolute
+  &--top
+    top: 0
+  &--bottom
+    bottom: 0
+
+.headline
+  position: relative
+  max-width: 100%
+  background-image: url("../img/headline_background.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+
+.header
+  position: inherit
+  z-index: 1
+  padding-top: 20px
+  padding-left: 24px
+  &-content
+    display: flex
+    max-width: 1232px
+    justify-content: space-between
+  &__toolbar
+    display: flex
+    align-items: center
+    max-height: 52px
+    margin-top: 10px
+  &__menu
+    display: flex
+    justify-content: space-between
+    padding-right: 62px
+    padding-left: 0
+    margin: 0
+    width: 548px
+    list-style: none
+  &__item
+    font-size: 14px
+    font-weight: bold
+    text-transform: uppercase
+    color: #54524F
+  &__search
+    display: flex
+    align-items: center
+    position: relative
+    max-width: 184px
+    height: 100%
+    border-radius: 26px
+    background-color: #7F7770
+    opacity: 0.47
+  &__input
+    background-color: transparent
+    color: #FFFFFF
+    line-height: normal
+    border: none
+    overflow: auto
+    max-width: 140px
+    margin-left: 10px
+    &:active
+      border: none
+
+
+.search-icon
+  max-width: 31px
+  margin-right: 28px
+  margin-top: 4px
