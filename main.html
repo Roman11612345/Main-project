@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script defer src="js/Slider.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Sass/normalize.css">
     <link rel="stylesheet" href="Sass/style.css">
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new ChiefSlider('.slider');
+        });
+    </script>
 </head>
 <body>
     <div class="headline">
@@ -64,5 +69,97 @@
         <img src="img/headline_shape_bottom.png" class="shape shape--bottom">
     </div>
     <!-- /.headline -->
+    <div class="offer-gallery">
+        <div class="offer-gallery__content">
+            <h2 class="offer-gallery__title">
+                LET´S go
+            </h2>
+            <!-- /.offer-gallery__title -->
+            <p class="offer-gallery__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus lacinia odio vitae vestibulum vestibulum.
+            </p>
+            <!-- /.offer-gallery__text -->
+            <div class="slider">
+                <div class="slider__container">
+                    <div class="slider__wrapper">
+                        <div class="slider__items">
+                            <div class="slider__item">
+                                <img src="img/slider-img.jpeg" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider_img_2.jpeg" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider_img_3.jpeg" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider-img.jpeg" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/slider_img_4.jpeg" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider__item">
+                                <img src="img/headline_background.png" alt="#" class="slider__img">
+                                <div class="slider__block">
+                                    <h4 class="slider__title">Lorem ipsum</h4>
+                                    <p class="slider__text">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur  adipisicing...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <a href="#" class="slider__control" data-slide="prev"></a>
+                <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+            <button class="button offer-gallery__button">
+                Show More
+            </button>
+            <!-- /.offer-gallery__button -->
+            <img src="img/offer_gallery_back.png" alt="#" class="offer-gallery-back">
+            <!-- /.offer-gallery-back -->
+        </div>
+        <!-- /.content -->
+    </div>
+    <!-- /.offer-gallery -->
 </body>
 </html>
