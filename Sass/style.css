@@ -21,9 +21,12 @@ button {
   border-radius: 50px; }
 
 .shape {
-  position: absolute; }
+  position: absolute;
+  z-index: 1; }
   .shape--top {
     top: 0; }
+  .shape--middle {
+    top: 50%; }
   .shape--bottom {
     bottom: 0; }
 
@@ -36,7 +39,7 @@ button {
 
 .header {
   position: inherit;
-  z-index: 1;
+  z-index: 10;
   padding-top: 20px;
   padding-left: 24px; }
   .header-content {
@@ -86,7 +89,7 @@ button {
 
 .banner {
   position: inherit;
-  z-index: 1;
+  z-index: 10;
   padding-top: 180px;
   padding-left: 35px;
   padding-bottom: 200px; }
@@ -307,5 +310,53 @@ button {
     font-weight: bold;
     background-color: #e2a355;
     color: white; }
+
+.motivation {
+  position: relative; }
+  .motivation-text {
+    background-color: #99928d; }
+    .motivation-text__back {
+      position: absolute;
+      top: 15%; }
+    .motivation-text__container {
+      margin: auto;
+      z-index: 10;
+      max-width: 895px;
+      padding-top: 350px;
+      padding-bottom: 350px; }
+    .motivation-text__title {
+      margin: 0;
+      text-align: center;
+      font-size: 58.4px;
+      font-weight: 600;
+      color: #FFFFFF; }
+    .motivation-text__paragraph {
+      margin: 0;
+      margin-top: 41px;
+      text-align: center;
+      font-size: 29.2px;
+      font-weight: 400;
+      color: #dbdbdb; }
+  .motivation-img {
+    background-image: url("../img/motivation-img-background.jpeg");
+    background-size: cover; }
+    .motivation-img__title {
+      box-sizing: content-box;
+      margin: 0;
+      max-width: 475px;
+      text-align: right;
+      padding-top: 190px;
+      padding-left: 750px;
+      padding-bottom: 389px;
+      font-size: 83.4px;
+      color: #54524f;
+      font-style: italic;
+      font-weight: 800;
+      text-shadow: 3px -4px 5px rgba(84, 82, 79, 0.36); }
+      .motivation-img__title--first-word {
+        font-size: 75px;
+        color: #deb37e; }
+  .motivation--shape--bottom {
+    bottom: -50px; }
 
 /*# sourceMappingURL=style.css.map */
