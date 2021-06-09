@@ -26,7 +26,7 @@ button {
   .shape--top {
     top: 0; }
   .shape--middle {
-    top: 50%; }
+    top: 45%; }
   .shape--bottom {
     bottom: 0; }
 
@@ -345,8 +345,8 @@ button {
       margin: 0;
       max-width: 475px;
       text-align: right;
-      padding-top: 190px;
-      padding-left: 750px;
+      padding-top: 240px;
+      padding-left: 100px;
       padding-bottom: 389px;
       font-size: 83.4px;
       color: #54524f;
@@ -358,5 +358,50 @@ button {
         color: #deb37e; }
   .motivation--shape--bottom {
     bottom: -50px; }
+
+.comments {
+  position: relative; }
+  .comments-content {
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .comments-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    padding-bottom: 18%; }
+    .comments-list__item {
+      padding-left: 50px; }
+    .comments-list__title {
+      margin: 0;
+      margin-bottom: 28px;
+      font-size: 33.4px;
+      font-weight: 700;
+      color: #deb37e; }
+    .comments-list__text {
+      margin: 0;
+      font-size: 18.4px;
+      font-weight: 400; }
+  .comments-citation {
+    text-align: center; }
+    .comments-citation__quote {
+      font-size: 100px;
+      font-weight: 700; }
+    .comments-citation__text {
+      margin: auto;
+      max-width: 75%;
+      font-size: 25px;
+      font-weight: 600;
+      padding-bottom: 5%; }
+    .comments-citation__name {
+      font-size: 18px;
+      font-weight: 700; }
+  .comments__back {
+    position: absolute;
+    transform: scale(-1, -1);
+    right: 0;
+    bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
