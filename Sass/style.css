@@ -30,6 +30,9 @@ button {
   .shape--bottom {
     bottom: 0; }
 
+.logo {
+  max-width: 42px; }
+
 .headline {
   position: relative;
   max-width: 100%;
@@ -444,7 +447,8 @@ button {
     font-size: 25px;
     font-weight: 400;
     color: #54524f;
-    overflow: auto; }
+    overflow: auto;
+    opacity: 0.67; }
   .contact-us__button {
     font-size: 25px;
     font-weight: 700;
@@ -452,5 +456,43 @@ button {
     color: #ffffff;
     background-color: #54524f;
     padding: 21px 41px; }
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  background-color: #7f7770; }
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 240px 2%; }
+  .footer__info {
+    max-width: 458px; }
+  .footer__title {
+    margin: 0;
+    font-size: 31.6px; }
+  .footer__text {
+    margin: 35px 0;
+    font-size: 22px; }
+  .footer__logos {
+    max-width: 212px;
+    display: flex;
+    justify-content: space-between; }
+  .footer__lists {
+    display: flex;
+    justify-content: space-between; }
+  .footer-list {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 40px; }
+    .footer-list:last-child {
+      padding-right: 0; }
+    .footer-list__name {
+      margin: 0;
+      font-size: 31.6px;
+      padding-bottom: 37px; }
+    .footer-list__item {
+      font-size: 23.7px;
+      padding-bottom: 17px; }
 
 /*# sourceMappingURL=style.css.map */
