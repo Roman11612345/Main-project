@@ -461,6 +461,8 @@ button {
   font-family: "Montserrat", sans-serif;
   color: #FFFFFF;
   background-color: #7f7770; }
+  .footer a {
+    color: white !important; }
   .footer__content {
     display: flex;
     justify-content: space-between;
