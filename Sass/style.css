@@ -66,7 +66,10 @@ button {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #54524F; }
+    color: #54524F;
+    transition: 1s; }
+    .header__item:hover {
+      color: #E2A355; }
   .header__search {
     display: flex;
     align-items: center;
@@ -120,7 +123,11 @@ button {
     font-size: 20px;
     font-weight: bolder;
     color: #776C64;
-    background-color: #FFFFFF; }
+    background-color: #FFFFFF;
+    transition: 1s; }
+    .banner__button:hover {
+      background-color: #e2a355;
+      color: white; }
   .banner__text {
     margin: 0;
     max-width: 450px;
@@ -154,7 +161,11 @@ button {
     color: #FFFFFF;
     background-color: #7F7770;
     border-radius: 50px;
-    padding: 24px 75px; }
+    padding: 24px 75px;
+    transition: 1s; }
+    .offer-gallery__button:hover {
+      background-color: #e2a355;
+      color: white; }
   .offer-gallery-back {
     position: absolute;
     left: 0;
@@ -312,7 +323,11 @@ button {
     font-size: 28px;
     font-weight: bold;
     background-color: #e2a355;
-    color: white; }
+    color: white;
+    transition: 1s; }
+    .special-offer__button:hover {
+      color: #776C64;
+      background-color: #FFFFFF; }
 
 .motivation {
   position: relative; }
@@ -455,7 +470,11 @@ button {
     text-transform: uppercase;
     color: #ffffff;
     background-color: #54524f;
-    padding: 21px 41px; }
+    padding: 21px 41px;
+    transition: 1s; }
+    .contact-us__button:hover {
+      color: #776C64;
+      background-color: #e2a355; }
 
 .footer {
   font-family: "Montserrat", sans-serif;
@@ -478,7 +497,8 @@ button {
   .footer__logos {
     max-width: 212px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-bottom: 10px; }
   .footer__lists {
     display: flex;
     justify-content: space-between; }
