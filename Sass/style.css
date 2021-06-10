@@ -404,4 +404,53 @@ button {
     right: 0;
     bottom: 0; }
 
+.contact-us {
+  position: relative; }
+  .contact-us--shape--bottom {
+    bottom: -35px; }
+  .contact-us__content {
+    text-align: center;
+    margin: auto;
+    padding-top: 348px;
+    padding-bottom: 300px;
+    background-color: #deb37e;
+    z-index: 10; }
+  .contact-us__title {
+    margin: 0;
+    padding-bottom: 70px;
+    font-size: 75px;
+    font-weight: 700;
+    color: #ffffff; }
+  .contact-us__text {
+    max-width: 75%;
+    margin: auto;
+    font-size: 29.8px;
+    font-weight: 400;
+    color: #54524f;
+    padding-bottom: 80px; }
+  .contact-us__form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding-left: 36px; }
+  .contact-us__input {
+    align-self: center;
+    width: 500px;
+    line-height: normal;
+    border: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: #54524f;
+    overflow: auto; }
+  .contact-us__button {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #54524f;
+    padding: 21px 41px; }
+
 /*# sourceMappingURL=style.css.map */
